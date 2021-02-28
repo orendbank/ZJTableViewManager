@@ -14,4 +14,6 @@ class ZJDefaultCell: UITableViewCell, ZJCellProtocol {
     typealias ZJCellItemClass = ZJTableViewItem
 
     func cellWillAppear() {}
+    
+    //test
 }
