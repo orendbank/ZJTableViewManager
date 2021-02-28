@@ -1,15 +1,16 @@
 #!/bin/sh
 
 #  appcenter-pre-build.sh
-#  discount
+#  
 #
-#  Created by Oren Heimlich on 25/02/2021.
-#  Copyright © 2021 Discount. All rights reserved.
+#  Created by Oren Heimlich on 28/02/2021.
+#  
+
 
 #!/usr/bin/env bash
 
-# Example: Clone a required repository
-git clone https://github.com/orendbank/ZJTableViewManager.git
-
-# Example: Install App Center CLI
-npm install -g appcenter-cli
+# Example: Change bundle name of an iOS app for non-production
+if [ "$APPCENTER_BRANCH" != "main" ];
+then
+    plutil -replace CFBundleDisplayName -string "\$(PRODUCT_NAME) Beta" $APPCENTER_SOURCE_DIRECTORY/MyApp/Info.plist
+fi

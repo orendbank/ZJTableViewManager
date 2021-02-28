@@ -1,4 +1,4 @@
-#!/bin/sh
+CFBundleDisplayName#!/bin/sh
 
 
 ROOT=.#${WORKSPACE}
