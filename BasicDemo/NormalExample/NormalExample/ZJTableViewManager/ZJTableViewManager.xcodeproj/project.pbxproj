@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2137AC6E25EBB355004F50B8 /* appcenter-pre-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2137AC6D25EBB355004F50B8 /* appcenter-pre-build.sh */; };
 		6685AF26244D398A007F78F4 /* ZJTableViewManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6685AF25244D398A007F78F4 /* ZJTableViewManager.podspec */; };
 		69CDB2EE2503C8E500A4D14C /* ZJDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDB2E72503C8E500A4D14C /* ZJDefaultCell.swift */; };
 		69CDB2EF2503C8E500A4D14C /* ZJTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDB2E82503C8E500A4D14C /* ZJTableViewSection.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2137AC6D25EBB355004F50B8 /* appcenter-pre-build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
 		6685AF25244D398A007F78F4 /* ZJTableViewManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZJTableViewManager.podspec; path = ../../../../../ZJTableViewManager.podspec; sourceTree = "<group>"; };
 		69CDB2E72503C8E500A4D14C /* ZJDefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJDefaultCell.swift; sourceTree = "<group>"; };
 		69CDB2E82503C8E500A4D14C /* ZJTableViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJTableViewSection.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 		8F4507EF244CBD5F007C123E = {
 			isa = PBXGroup;
 			children = (
-				2137AC6D25EBB355004F50B8 /* appcenter-pre-build.sh */,
 				8F4507FB244CBD5F007C123E /* ZJTableViewManager */,
 				8F4507FA244CBD5F007C123E /* Products */,
 			);
@@ -163,7 +160,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2137AC6E25EBB355004F50B8 /* appcenter-pre-build.sh in Resources */,
 				6685AF26244D398A007F78F4 /* ZJTableViewManager.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
