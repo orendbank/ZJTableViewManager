@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0958CFD956D32CD903F21BE6 /* Pods_ZJTableViewDemo_CommentsWithPicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8C1BA045D78F73A15989F /* Pods_ZJTableViewDemo_CommentsWithPicture.framework */; };
-		213D76F325EBBF5400A27CD3 /* appcenter-pre-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 213D76F225EBBF5400A27CD3 /* appcenter-pre-build.sh */; };
 		660D6E6B231F5F53009741A7 /* OrderEvaluateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6E66231F5F53009741A7 /* OrderEvaluateCell.swift */; };
 		660D6E6C231F5F53009741A7 /* ZJPictureCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6E67231F5F53009741A7 /* ZJPictureCollectionCell.xib */; };
 		660D6E6D231F5F53009741A7 /* OrderEvaluateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6E68231F5F53009741A7 /* OrderEvaluateCell.xib */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		213D76F225EBBF5400A27CD3 /* appcenter-pre-build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
 		4C768E58BE05CB9CB40BDC54 /* Pods-ZJTableViewDemo-CommentsWithPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJTableViewDemo-CommentsWithPicture.release.xcconfig"; path = "Target Support Files/Pods-ZJTableViewDemo-CommentsWithPicture/Pods-ZJTableViewDemo-CommentsWithPicture.release.xcconfig"; sourceTree = "<group>"; };
 		57C8C1BA045D78F73A15989F /* Pods_ZJTableViewDemo_CommentsWithPicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJTableViewDemo_CommentsWithPicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		660D6E50231F5F12009741A7 /* CommentsWithPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentsWithPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +78,6 @@
 		660D6E47231F5F12009741A7 = {
 			isa = PBXGroup;
 			children = (
-				213D76F225EBBF5400A27CD3 /* appcenter-pre-build.sh */,
 				660D6E52231F5F12009741A7 /* CommentsWithPicture */,
 				660D6E51231F5F12009741A7 /* Products */,
 				5994A3BA0F447EA47AEDDB66 /* Pods */,
@@ -187,7 +184,6 @@
 			files = (
 				660D6E6C231F5F53009741A7 /* ZJPictureCollectionCell.xib in Resources */,
 				660D6E6D231F5F53009741A7 /* OrderEvaluateCell.xib in Resources */,
-				213D76F325EBBF5400A27CD3 /* appcenter-pre-build.sh in Resources */,
 				660D6E76231F5F60009741A7 /* comments-Info.plist in Resources */,
 				660D6E7A231F5F60009741A7 /* LaunchScreen.storyboard in Resources */,
 				660D6E77231F5F60009741A7 /* Main.storyboard in Resources */,
