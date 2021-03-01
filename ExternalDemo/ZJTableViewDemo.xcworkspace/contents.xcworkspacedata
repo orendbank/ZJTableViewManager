@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:appstore_prebuild.sh">
+      location = "group:/Users/orenheimlich/Development/Test/ExternalDemo/appcenter-vova.sh">
    </FileRef>
    <FileRef
       location = "group:appcenter-pre-build.sh">
