@@ -8,7 +8,7 @@
       location = "group:appcenter-pre-build.sh">
    </FileRef>
    <FileRef
-      location = "group:appcenter-post-clone.sh">
+      location = "group:/Users/orenheimlich/Development/Test/ExternalDemo/appcenter-post-oren.sh">
    </FileRef>
    <FileRef
       location = "group:CommentsWithPicture/CommentsWithPicture.xcodeproj">
